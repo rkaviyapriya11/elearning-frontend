@@ -31,78 +31,81 @@ const Home = () => {
       </div>
       <br /> <br />
       {/* section 1 */}
-      <div className="info">
-        <p className='fs-6 text-center justify-content-center'>Education for everyone</p>
-        <h1 className='h1 text-center justify-content-center' style={{ color: '#8a4baf' }}>
-          Affordable Online Courses and Learning Opportunities
-        </h1>
-        <br />
-        <div className="container">
-          <div class="row justify-content-center mb-5">
-            {/* 1 */}
-            <div class="col-12 col-md-6 col-lg-3 h-100">
-              <div class="card bg-body-secondary border-0 mb-3" >
-                <div class="card-body text-center">
-                  <LuBrainCircuit className='w-25 h-25 m-2' />
-                  <h3 class="card-title fs-4">Learn the Latest Top Skills</h3>
-                  <h6 class="card-subtitle mb-2 text-body-secondary m-3">Learning top skills can bring an extra-ordinary outcome in a career.</h6>
-                  <Link
-                    className='fs-5'
-                    style={{ color: '#8a4baf' }}
-                    to="/courses"
-                  >Start Now</Link>
-                </div>
-              </div>
-            </div>
-            {/* 2 */}
-            <div class="col-12 col-md-6 col-lg-3  h-100">
-              <div className="card bg-body-secondary border-0 mb-3 ">
-                <div className="card-body text-center ">
-                  <RiComputerLine className='w-25 h-25 m-2' />
-                  <h3 class="card-title fs-4">Learn in Your Own Pace</h3>
-                  <h6 class="card-subtitle mb-2 text-body-secondary m-3">Everyone prefers to enjoy learning at their own pace & that gives a great result.</h6> <br />
-                  <Link
-                    className='fs-5'
-                    style={{ color: '#8a4baf' }}
-                    to="/courses"
-                  >Start Now</Link>
-                </div>
-              </div>
-            </div>
-            {/* 3 */}
-            <div class="col-12 col-md-6 col-lg-3 h-100">
-              <div className="card bg-body-secondary border-0 mb-3">
-                <div className="card-body text-center ">
-                  <LiaIndustrySolid className='w-25 h-25 m-2' />
-                  <h3 class="card-title fs-4">Learn From Industry Experts</h3>
-                  <h6 class="card-subtitle mb-2 text-body-secondary m-3">Experienced teachers can assist in learning faster with their best approaches!</h6>
-                  <Link
-                    className='fs-5'
-                    style={{ color: '#8a4baf' }}
-                    to="/courses"
-                  >Start Now</Link>
-                </div>
-              </div>
-            </div>
-            {/* 3 */}
-            <div class="col-12 col-md-6 col-lg-3  h-100">
-              <div className="card bg-body-secondary border-0 mb-5">
-                <div className="card-body text-center">
-                  <GiWorld className='w-25 h-25 m-2' />
-                  <h3 class="card-title fs-4" >Enjoy Learning From Anywhere</h3>
-                  <h6 class="card-subtitle mb-2 text-body-secondary m-3">We are delighted to give you options to enjoy learning from anywhere in the world.</h6>
-                  <Link
-                    className='fs-5'
-                    style={{ color: '#8a4baf' }}
-                    to="/courses"
-                  >Start Now</Link>
-                </div>
-              </div>
-            </div>
+    
+
+<div className="info">
+  <p className="fs-6 text-center">Education for everyone</p>
+  <h1 className="h1 text-center" style={{ color: '#8a4baf' }}>
+    Affordable Online Courses and Learning Opportunities
+  </h1>
+  <br />
+  <div className="container">
+    <div className="row justify-content-center">
+      {/* 1 */}
+      <div className="col-12 col-md-6 col-lg-3 mb-4">
+        <div className="card bg-body-secondary border-0 h-100">
+          <div className="card-body text-center">
+            <LuBrainCircuit className="w-25 h-25 m-2" />
+            <h3 className="card-title fs-4">Learn the Latest Top Skills</h3>
+            <h6 className="card-subtitle mb-2 text-body-secondary">
+              Learning top skills can bring an extraordinary outcome in a career.
+            </h6>
+            <Link className="fs-5" style={{ color: '#8a4baf' }} to="/courses">
+              Start Now
+            </Link>
           </div>
         </div>
-        <br /> <br />
       </div>
+      {/* 2 */}
+      <div className="col-12 col-md-6 col-lg-3 mb-4">
+        <div className="card bg-body-secondary border-0 h-100">
+          <div className="card-body text-center">
+            <RiComputerLine className="w-25 h-25 m-2" />
+            <h3 className="card-title fs-4">Learn at Your Own Pace</h3>
+            <h6 className="card-subtitle mb-2 text-body-secondary">
+              Everyone prefers to enjoy learning at their own pace, and that gives a great result.
+            </h6>
+            <Link className="fs-5" style={{ color: '#8a4baf' }} to="/courses">
+              Start Now
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/*  3 */}
+      <div className="col-12 col-md-6 col-lg-3 mb-4">
+        <div className="card bg-body-secondary border-0 h-100">
+          <div className="card-body text-center">
+            <LiaIndustrySolid className="w-25 h-25 m-2" />
+            <h3 className="card-title fs-4">Learn From Industry Experts</h3>
+            <h6 className="card-subtitle mb-2 text-body-secondary">
+              Experienced teachers can assist in learning faster with their best approaches!
+            </h6>
+            <Link className="fs-5" style={{ color: '#8a4baf' }} to="/courses">
+              Start Now
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/* 4 */}
+      <div className="col-12 col-md-6 col-lg-3 mb-4">
+        <div className="card bg-body-secondary border-0 h-100">
+          <div className="card-body text-center">
+            <GiWorld className="w-25 h-25 m-2" />
+            <h3 className="card-title fs-4">Enjoy Learning From Anywhere</h3>
+            <h6 className="card-subtitle mb-2 text-body-secondary">
+              We are delighted to give you options to enjoy learning from anywhere in the world.
+            </h6>
+            <Link className="fs-5" style={{ color: '#8a4baf' }} to="/courses">
+              Start Now
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
       {/* section 2 */}
       <div className="view-course d-flex align-items-center" style={{ backgroundColor: '#8a4baf', minHeight: '100vh' }}>

@@ -40,8 +40,8 @@ const Header = ({ isAuth }) => {
                                         Account
                                     </button>
                                 ) : (
-                                    <button className='common-btn d-flex align-items-center' onClick={() => navigate('/login')}>
-                                        <MdPersonOutline className="me-2" /> Login/Register
+                                    <button className='common-btn  d-flex align-items-center' style={{marginLeft:'100px'}} onClick={() => navigate('/login')}>
+                                        <MdPersonOutline className="me-2 " /> Login/Register
                                     </button>
 
                                 )
