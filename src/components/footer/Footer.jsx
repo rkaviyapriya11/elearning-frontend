@@ -20,7 +20,7 @@
 // export default Footer
 
 import React from 'react';
-import './Footer.css';
+import './footer.css';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
