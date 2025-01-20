@@ -8,7 +8,7 @@ const Header = ({ isAuth }) => {
 
     return (
         <header>
-           
+
             {/* final */}
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container">
@@ -36,11 +36,11 @@ const Header = ({ isAuth }) => {
                         <div className="d-flex align-items-center">
                             {
                                 isAuth ? (
-                                    <button className='common-btn' style={{marginLeft:'130px'}} onClick={() => navigate('/account')}>
+                                    <button className='common-btn' style={{ marginLeft: '130px' }} onClick={() => navigate('/account')}>
                                         Account
                                     </button>
                                 ) : (
-                                    <button className='common-btn  d-flex align-items-center' style={{marginLeft:'100px'}} onClick={() => navigate('/login')}>
+                                    <button className='common-btn  d-flex align-items-center' style={{ marginLeft: '100px' }} onClick={() => navigate('/login')}>
                                         <MdPersonOutline className="me-2 " /> Login/Register
                                     </button>
 
