@@ -33,14 +33,14 @@ const Header = ({ isAuth }) => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="d-flex align-items-center" style={{marginLeft:'50px'}}>
+                        <div className="d-flex align-items-center" style={{marginLeft:'100px'}}>
                             {
                                 isAuth ? (
                                     <button className='common-btn' onClick={() => navigate('/account')}>
                                         Account
                                     </button>
                                 ) : (
-                                    <button className='common-btn  d-flex align-items-center' style={{marginLeft:'50px'}} onClick={() => navigate('/login')}>
+                                    <button className='common-btn  d-flex align-items-center' style={{marginLeft:'100px'}} onClick={() => navigate('/login')}>
                                         <MdPersonOutline className="me-2 " /> Login/Register
                                     </button>
 
