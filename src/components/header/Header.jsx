@@ -33,10 +33,10 @@ const Header = ({ isAuth }) => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="d-flex align-items-center" style={{marginLeft:'100px'}}>
+                        <div className="d-flex align-items-center">
                             {
                                 isAuth ? (
-                                    <button className='common-btn' onClick={() => navigate('/account')}>
+                                    <button className='common-btn' style={{marginLeft:'100px'}} onClick={() => navigate('/account')}>
                                         Account
                                     </button>
                                 ) : (
