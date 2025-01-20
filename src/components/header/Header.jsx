@@ -36,7 +36,7 @@ const Header = ({ isAuth }) => {
                         <div className="d-flex align-items-center">
                             {
                                 isAuth ? (
-                                    <button className='common-btn' style={{marginLeft:'100px'}} onClick={() => navigate('/account')}>
+                                    <button className='common-btn' style={{marginLeft:'130px'}} onClick={() => navigate('/account')}>
                                         Account
                                     </button>
                                 ) : (
