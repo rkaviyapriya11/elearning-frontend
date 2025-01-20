@@ -1,6 +1,6 @@
 import React from 'react';
 import './dashborad.css';
-import { CourseData } from '../../context/CourseContext';
+import { CourseData } from '../../contextapi/CourseContext';
 import CourseCard from '../../components/CourseCard/CourseCard';
 
 const Dashboard = () => {

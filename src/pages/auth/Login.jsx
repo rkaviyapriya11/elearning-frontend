@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './auth.css';
 import { Link, useNavigate } from 'react-router-dom';
-import { UserData } from '../../Context/UserContext';
-import { CourseData } from '../../context/CourseContext';
+import { UserData } from '../../contextapi/UserContext';
+import { CourseData } from '../../contextapi/CourseContext';
 
 const Login = () => {
     const navigate = useNavigate()

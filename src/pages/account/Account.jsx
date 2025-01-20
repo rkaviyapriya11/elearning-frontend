@@ -2,7 +2,7 @@ import React from 'react'
 import { MdDashboard } from "react-icons/md";
 import { IoMdLogOut } from "react-icons/io";
 import './account.css'
-import { UserData } from '../../Context/UserContext';
+import { UserData } from '../../contextapi/UserContext';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 

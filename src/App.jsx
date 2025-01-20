@@ -12,7 +12,7 @@ import Verify from './pages/auth/Verify.jsx';
 import Footer from './components/footer/Footer.jsx';
 import About from './pages/about/About.jsx';
 import Account from './pages/account/Account.jsx';
-import { UserData } from './Context/UserContext.jsx';
+import { UserData } from './contextapi/UserContext.jsx';
 import Loading from './components/loading/Loading.jsx';
 import Courses from './pages/courses/Courses.jsx';
 import Coursedescription from './pages/Coursedescription/Coursedescription.jsx';

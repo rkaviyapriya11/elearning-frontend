@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './courses.css';
-import { CourseData } from '../../context/CourseContext';
+import { CourseData } from '../../contextapi/CourseContext';
 import CourseCard from '../../components/CourseCard/CourseCard';
 import { motion } from 'framer-motion';
 

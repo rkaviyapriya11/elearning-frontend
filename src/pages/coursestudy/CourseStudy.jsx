@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './coursestudy.css';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { CourseData } from '../../context/CourseContext';
+import { CourseData } from '../../contextapi/CourseContext';
 import { server } from '../../main';
 import { motion } from 'framer-motion';
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import './coursecard.css';
 import { server } from '../../main';
-import { UserData } from '../../Context/UserContext';
+import { UserData } from '../../contextapi/UserContext';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import axios from 'axios';
-import { CourseData } from '../../context/CourseContext';
+import { CourseData } from '../../contextapi/CourseContext';
 
 const CourseCard = ({ course }) => {
     const navigate = useNavigate()
