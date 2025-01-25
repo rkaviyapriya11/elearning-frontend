@@ -61,7 +61,7 @@ const Home = () => {
         <div className="card bg-body-secondary border-0 h-100">
           <div className="card-body text-center">
             <RiComputerLine className="w-25 h-25 m-2" />
-            <h3 className="card-title fs-4">Learn at Your Own Pace</h3>
+            <h3 className="card-title fs-4">Learn at Your Own Place</h3>
             <h6 className="card-subtitle mb-2 text-body-secondary">
               Everyone prefers to enjoy learning at their own pace, and that gives a great result.
             </h6>
