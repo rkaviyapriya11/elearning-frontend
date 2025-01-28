@@ -116,10 +116,25 @@ function Coursedescription({ user }) {
                                     user && user.subscription.includes(course._id) ? (
                                         <button onClick={() => navigate(`/course/study/${course._id}`)} className='common-btn'>Study</button>
                                     ) : (
+                                        // <motion.button
+                                        //     initial={{ opacity: 0, scale: 0 }}
+                                        //     animate={{ opacity: 1, scale: 1 }}
+
+                                        //      onClick={checkoutHandler} className='common-btn'>Buy Now
+                                        // </motion.button>
                                         <motion.button
                                             initial={{ opacity: 0, scale: 0 }}
-                                            animate={{ opacity: 1, scale: 1 }} onClick={checkoutHandler} className='common-btn'>Buy Now</motion.button>
+                                            animate={{ opacity: 1, scale: 1 }}
+                                            onClick={() => {
+                                                alert("Don't worry about the payment! This is only for test mode. Please proceed to payment, select 'Net Banking', and choose 'Bank of Baroda'.");
+                                                checkoutHandler(); 
+                                            }}
+                                            className='common-btn'
+                                        >
+                                            Buy Now
+                                        </motion.button>
                                     )}
+
                             </motion.div>
                         )}
                     </>
