@@ -14,8 +14,6 @@ const Register = () => {
   const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
   // Strong password valid
-  const isStrongPassword = (password) => 
-    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password);
 
   const submitHandler = async (e) => {
     e.preventDefault();
@@ -27,10 +25,8 @@ const Register = () => {
     }
 
     // Validate password
-    if (!isStrongPassword(password)) {
-      alert(
-        "Password must be at least 8 characters long, include at least one uppercase letter, one lowercase letter, one number, and one special character."
-      );
+    if (password.length < 8) {
+      alert("Password must be at least 8 characters long.");
       return;
     }
 

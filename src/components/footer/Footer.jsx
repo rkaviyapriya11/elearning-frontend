@@ -27,7 +27,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-      
+
         <div className="footer-content">
           <div className="footer-section">
             <h4>About Us</h4>
@@ -43,7 +43,7 @@ const Footer = () => {
               <li><a href="/courses">Courses</a></li>
               <li><a href="/about">About Us</a></li>
               <li><a href="/contact">Contact Us</a></li>
-            
+
             </ul>
           </div>
 
@@ -66,7 +66,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/invites/contact/?igsh=sv0az7tpaqpm&utm_content=mdwr5gr" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/r-kaviyapriya-756107293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/r-kaviyapriya" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
             </div>

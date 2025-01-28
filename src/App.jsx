@@ -51,13 +51,9 @@ const App = () => {
           <Route path='/admin/dashboard' element={isAuth ? <AdminDashboard user={user} /> : <Login />} />
           <Route path='/admin/course' element={isAuth ? <AdminCourses user={user} /> : <Login />} />
           <Route path='/admin/users' element={isAuth ? <AdminUsers user={user} /> : <Login />} />
-
-
         </Routes>
         <Footer />
-
       </BrowserRouter>)}
-
     </>
   )
 }
