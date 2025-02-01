@@ -18,7 +18,7 @@ import icon11 from 'D:/Learning/frontend/src/pages/about/icon_11.png'
 
 
 const About = () => {
-  const navigate = useNavigate()
+  
 
   return (
     <div className="">
