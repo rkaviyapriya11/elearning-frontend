@@ -1,18 +1,18 @@
 import React from 'react';
 import './about.css';
 import { useNavigate } from 'react-router-dom';
-import icon1 from 'D:/Learning/frontend/src/pages/about/icon_01.png'
-import icon2 from 'D:/Learning/frontend/src/pages/about/icon_02.png'
-import icon3 from 'D:/Learning/frontend/src/pages/about/icon_03.png'
-import icon4 from 'D:/Learning/frontend/src/pages/about/icon_04.png'
-import icon5 from 'D:/Learning/frontend/src/pages/about/icon_05.png'
-import icon6 from 'D:/Learning/frontend/src/pages/about/icon_06.png'
-import icon7 from 'D:/Learning/frontend/src/pages/about/icon_07.png'
+import icon1 from './icon_01.png'
+import icon2 from './icon_02.png'
+import icon3 from './icon_03.png'
+import icon4 from './icon_04.png'
+import icon5 from './icon_05.png'
+import icon6 from './icon_06.png'
+import icon7 from './icon_07.png'
 
-import icon8 from 'D:/Learning/frontend/src/pages/about/icon_08.png'
-import icon9 from 'D:/Learning/frontend/src/pages/about/icon_09.png'
-import icon10 from 'D:/Learning/frontend/src/pages/about/icon_10.png'
-import icon11 from 'D:/Learning/frontend/src/pages/about/icon_11.png'
+import icon8 from './icon_08.png'
+import icon9 from './icon_09.png'
+import icon10 from './icon_10.png'
+import icon11 from './icon_11.png'
 // import icon12 from 'D:/Learning/frontend/src/pages/about/icon_12.png'
 
 
