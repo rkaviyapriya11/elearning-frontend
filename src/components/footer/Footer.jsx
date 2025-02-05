@@ -76,7 +76,7 @@ const Footer = () => {
 
 
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} SkillsGrow Platform. All Rights Reserved.Made With❤️ R Kaviyapriya.
+          <p> © {new Date().getFullYear()} SkillsGrow Platform. All Rights Reserved.Made With❤️ R Kaviyapriya.
           </p>
         </div>
       </div>
