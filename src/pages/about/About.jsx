@@ -18,8 +18,6 @@ import icon11 from './icon_11.png'
 
 
 const About = () => {
-  
-
   return (
     <div className="">
       <div className="about">
